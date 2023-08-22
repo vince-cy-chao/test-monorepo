@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "../"
+    },
+    {
+      "name": "client",
+      "path": "../client"
+    },
+    {
+      "name": "server",
+      "path": "../server"
+    }
+  ],
+  "settings": {
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "python.languageServer": "Pylance"
+  }
+}

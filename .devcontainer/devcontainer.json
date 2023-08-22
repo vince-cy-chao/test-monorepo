@@ -1,0 +1,20 @@
+{
+	"name": "Data Annotation Devcontainer",
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"customizations": {
+    "vscode":{
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph",
+        "ms-python.black-formatter",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "16"
+    }
+  }
+}
